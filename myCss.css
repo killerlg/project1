@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+.formContainer {
+    background-color: #E4E4E4;
+}
+.formContainer form legend{
+    margin-top: 10px;
+    border: 5px solid #0069D9;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.formContainer form label {
+    font-weight: bold;
+}
+.buttonContainer {
+    margin-bottom: 10px;
+    text-align: center;
+}
+#myTable {
+    margin-bottom: 40px;
+}
+.form {
+    background-color: rgb(176, 224, 204);
+}
+.anh {
+    display:none;
+}
+.fail {
+    color:red;
+    font-style: italic;
+}
+.hide {
+    display : none;
+}
+.redColor {
+    color:red;
+}
+#fail0 , #fail1, #fail2, #fail3, #fail4 {
+    display: none;
+}
+@media only screen and (min-width: 992px) {
+    .anh {display: block;}
+}
